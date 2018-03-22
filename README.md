@@ -1,31 +1,17 @@
-# README #
+### Tools used ###
 
-This README would normally document whatever steps are necessary to get your application up and running.
+* Java
+* Junit
+* Cucumber
+* Maven
 
-### What is this repository for? ###
+### Scenarios covered ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Utilize filter on Home Search Page and check returned data satisfies entered criteria(Beds filter)
+* Verify rendering elements on Home page(Agent name, Navigation elements)
 
-### How do I get set up? ###
+### How to run  ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* **Mariia Strohanova**
-  mariia.strohanova@creedenz.com
-* **Mamta Patel**
-  mamta.patel@creedenz.com
+* Clone git repository
+* Navigate to autotests-java-cucumber/src/test/java/
+* Rigth click on file "RunTest" => run as jUnit test
