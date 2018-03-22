@@ -18,7 +18,7 @@ public class HomeSearchPage extends BasePage{
 	//Open and set dropdown filter 
 	public void setFilter(String filterName, String filterValue) {
 		WebElement filter = driver.findElementByXPath("//div[@class='"+ filterName +"-container']//h4");
-		driverWait(2000);
+		driverWait(3000);
 		jsClick(filter);
 		WebElement selectComponent = driver.findElementByXPath
 				("//div[@class='select-component']/div[contains(text(), '" + filterValue + "')]");

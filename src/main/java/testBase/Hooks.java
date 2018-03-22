@@ -41,6 +41,6 @@ public class Hooks {
 		}
 		System.out.println("LOG: Closing driver");
 
-		//driver.quit();
+		driver.quit();
 	}
 }
